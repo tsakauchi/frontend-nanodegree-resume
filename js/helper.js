@@ -60,6 +60,17 @@ var googleMap = '<div id="map"></div>';
 
 
 /*
+ * name internationalization
+ */
+function inName(name)
+{
+  var nameArray = name.trim().split(" ");
+  nameArray[0]=nameArray[0].charAt(0).toUpperCase() + nameArray[0].slice(1).toLowerCase();
+  nameArray[1]=nameArray[1].toUpperCase();
+  return nameArray[0] + " " + nameArray[1];
+}
+
+/*
 The International Name challenge in Lesson 2 where you'll create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
 */
 $(document).ready(function() {

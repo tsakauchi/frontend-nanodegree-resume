@@ -137,6 +137,7 @@ var education = {
   ]
 };
 
+//$("#header").append(internationalizeButton);
 
 /*
 var formattedName=HTMLheaderName.replace("%data%",bio.name);
