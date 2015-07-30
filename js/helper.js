@@ -108,6 +108,8 @@ https://developers.google.com/maps/documentation/javascript/reference
 */
 var map;    // declares a global map variable
 
+// for keeping track of an active infowindow
+var activeInfoWindow;
 
 /*
 Start here! initializeMap() is called when page is loaded.
@@ -188,6 +190,8 @@ function initializeMap() {
       }
 
       infoWindow.open(map,marker);
+
+      activeInfoWindow = infoWindow;
     });
 
     // this is where the pin actually gets added to the map.
