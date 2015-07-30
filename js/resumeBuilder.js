@@ -162,3 +162,4 @@ $("#header").append(formattedSkill);
 formattedSkill=HTMLskills.replace("%data%",bio.skills[2]);
 $("#header").append(formattedSkill);
 */
+$("#mapDiv").append(googleMap);
