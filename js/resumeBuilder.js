@@ -248,18 +248,22 @@ var education =
       }
     }
 
-    for (onlineCourseIdx in education.onlineCourses)
+    if ( education.onlineCourses.length > 0 )
     {
-      var formattedOnlineCourseTitle = HTMLonlineTitle.replace("%data%",education.onlineCourses[onlineCourseIdx].title).replace("#",education.onlineCourses[onlineCourseIdx].url);
-      var formattedOnlineCourseSchool = HTMLonlineSchool.replace("%data%",education.onlineCourses[onlineCourseIdx].school);
-      var formattedOnlineCourseDates = HTMLonlineDates.replace("%data%",education.onlineCourses[onlineCourseIdx].dates);
-      var formattedOnlineCourseUrl = HTMLonlineURL.replace("%data%",education.onlineCourses[onlineCourseIdx].url).replace("#",education.onlineCourses[onlineCourseIdx].url);
-
       $("#education").append(HTMLonlineClasses);
-      $("#education").append(HTMLschoolStart);
-      $(".education-entry:last").append(formattedOnlineCourseTitle + formattedOnlineCourseSchool);
-      $(".education-entry:last").append(formattedOnlineCourseDates);
-      $(".education-entry:last").append(formattedOnlineCourseUrl);
+
+      for (onlineCourseIdx in education.onlineCourses)
+      {
+        var formattedOnlineCourseTitle = HTMLonlineTitle.replace("%data%",education.onlineCourses[onlineCourseIdx].title).replace("#",education.onlineCourses[onlineCourseIdx].url);
+        var formattedOnlineCourseSchool = HTMLonlineSchool.replace("%data%",education.onlineCourses[onlineCourseIdx].school);
+        var formattedOnlineCourseDates = HTMLonlineDates.replace("%data%",education.onlineCourses[onlineCourseIdx].dates);
+        var formattedOnlineCourseUrl = HTMLonlineURL.replace("%data%",education.onlineCourses[onlineCourseIdx].url).replace("#",education.onlineCourses[onlineCourseIdx].url);
+
+        $("#education").append(HTMLschoolStart);
+        $(".education-entry:last").append(formattedOnlineCourseTitle + formattedOnlineCourseSchool);
+        $(".education-entry:last").append(formattedOnlineCourseDates);
+        $(".education-entry:last").append(formattedOnlineCourseUrl);
+      }
     }
   }
 };
