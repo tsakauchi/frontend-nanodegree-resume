@@ -13,23 +13,31 @@ var bio =
   "contacts" : 
   {
     "email" : "tsugi@fairlandcircle.com",
-    "mobile" : "(000) 000-0000",
+    "mobile" : "(262) 661-1858",
     "github" : "tsakauchi",
     "twitter" : "@tsakauchi",
     "location" : "Milwaukee, WI"
   },
-  "welcomeMessage" : "Hello, world!",
+  "welcomeMessage" : "This is my hello to the JavaScript world! "
+  + "This is my resume outlining my progress with the Udacity's Front-End Web Developer Nanodegree program.",
   "skills" : 
   [
-    "skill1",
-    "skill2",
-    "skill3",
-    "skill4",
-    "skill5",
-    "skill6",
-    "skill7",
-    "skill8",
-    "skill9"
+    "C",
+    "C#",
+    "Java",
+    "Visual Basic",
+    "HTML5",
+    "CSS3",
+    "JavaScript (new!)",
+    "Perl",
+    "SQL",
+    "Regular Expressions",
+    "XAML",
+    "Visual Studio",
+    "Git",
+    "SVN",
+    "Design Patterns",
+    "Object Oriented Design"
   ],
   "biopic" : "images/biopic.jpg",
   "display" : function()
@@ -128,23 +136,28 @@ var projects =
   "projects" : 
   [
     {
-      "title" : "project 1",
-      "dates" : "2015",
-      "description" : "project 1 description",
+      "title" : "Portfolio Site (Part of Udacity Nanodegree Program)",
+      "dates" : "May 2015",
+      "description" : "HTML and CSS project that replicated a sample portfolio site, "
+      + "demonstrating my proficiency in HTML5, CSS3, reponsive layout, "
+      + "and modern webpage design and development methods.",
       "images" : 
       [
-        "images/project/p1-1.jpg",
-        "images/project/p1-2.jpg"
+        "images/p1-1.png",
+        "images/p1-2.png",
+        "images/p1-3.png"
       ]
     },
     {
-      "title" : "project 2",
-      "dates" : "2015",
-      "description" : "project 2 description",
+      "title" : "Resume Site (Part of Udacity Nanodegree Program)",
+      "dates" : "July 2015",
+      "description" : "Basic JavaScript project that replicated a sample resume site, "
+      + "demonstrating my proficiency in JavaScript syntax and application of JavaScript "
+      + "in developing a functional webpage.",
       "images" : 
       [
-        "images/project/p2-1.jpg",
-        "images/project/p2-2.jpg"
+        "images/p2-1.png",
+        "images/p2-2.png"
       ]
     }
   ],
@@ -221,10 +234,34 @@ var education =
   "onlineCourses" : 
   [
     {
-      "title" : "online course 1",
+      "title" : "Intro to HTML and CSS",
       "school" : "Udacity",
-      "dates" : "2015",
-      "url" : "http://onlinecourse.com/course1"
+      "dates" : "April 2015",
+      "url" : "http://www.udacity.com/"
+    },
+    {
+      "title" : "Responsive Web Design Fundamentals",
+      "school" : "Udacity",
+      "dates" : "April 2015",
+      "url" : "http://www.udacity.com/"
+    },
+    {
+      "title" : "Responsive Images",
+      "school" : "Udacity",
+      "dates" : "April 2015",
+      "url" : "http://www.udacity.com/"
+    },
+    {
+      "title" : "How to Use Git and GitHub",
+      "school" : "Udacity",
+      "dates" : "July 2015",
+      "url" : "http://www.udacity.com/"
+    },
+    {
+      "title" : "JaveScript Basics",
+      "school" : "Udacity",
+      "dates" : "July 2015",
+      "url" : "http://www.udacity.com/"
     }
   ],
   "display" : function()
