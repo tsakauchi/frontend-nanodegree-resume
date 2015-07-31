@@ -161,7 +161,7 @@ var projects =
       $(".project-entry:last").append(formattedProjectDates);
       $(".project-entry:last").append(formattedProjectDescription);
 
-      for (imageIdx in projects.projects.images)
+      for (imageIdx in projects.projects[projectIdx].images)
       {
         var formattedProjectImage = HTMLprojectImage.replace("%data%",projects.projects[projectIdx].images[imageIdx]);
         $(".project-entry:last").append(formattedProjectImage);
