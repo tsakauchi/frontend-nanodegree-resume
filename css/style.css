@@ -1,7 +1,8 @@
 * {
   padding:0;
   margin:0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
 }
 
 .clearfix {
@@ -15,15 +16,16 @@
 
 h1 {
   font-size: 40px;
-  color: #F5A623;
+  font-weight: 700;
+  color: #FACB47;
   line-height: 48px;
   display: inline;
 }
 
 h2 {
-  font-weight: bold;
   font-size: 24px;
-  color: #999999;
+  font-weight: 700;
+  color: #61AE24;
   line-height: 29px;
   padding: 10px;
 }
@@ -31,14 +33,16 @@ h2 {
 h3 {
   font-style: italic;
   font-size: 20px;
-  color: #000000;
+  font-weight: 500;
+  color: #E54028;
   line-height: 22px;
 }
 
 h4 {
   font-weight: bold;
   font-size: 14px;
-  color: #4A4A4A;
+  font-weight: 500;
+  color: #E54028;
   line-height: 17px;
 }
 
@@ -47,7 +51,6 @@ h2, h3, h4, h5 {
   padding-left: 5%;
   padding-right: 5%;
 }
-
 
 .date-text {
   font-style: italic;
@@ -63,7 +66,6 @@ h2, h3, h4, h5 {
   color: #999999;
   line-height: 16px;
   float: right;
-
 }
 
 p {
@@ -80,27 +82,25 @@ a {
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 18px;
   color: #F3F3F3;
+  padding: 10px;
   line-height: 28px;
 }
 
 #skillsH3 {
-  color: #F5AE23;
+  color: #FACB47;
   display: none;
 }
 
-.orange {
-  background-color: #F5AE23;
+.connect-header {
+  background-color: #A0D36E;
 }
 
 .orange-text {
-  color: #F5AE23;
+  color: #FACB47;
 }
 
 .white-text {
-  font-weight: bold;
   color: #FFFFFF;
 }
 
@@ -110,13 +110,12 @@ a {
   clear:both;
 }
 
-.dark-gray {
-  background-color: #4A4A4A;
+.connect-body {
+  background-color: #424B5C;
 }
 
-/* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #424B5C;
 }
 
 .flex-box {
@@ -162,7 +161,7 @@ img {
   display: inline-block;
 }
 
-span {
+.padded {
   padding: 5px;
 }
 

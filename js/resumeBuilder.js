@@ -53,6 +53,7 @@ var bio =
     var formattedWelcomeMessage=HTMLwelcomeMsg.replace("%data%",bio.welcomeMessage);
 
     $("#header").prepend(formattedRole);
+    $("#header").prepend(" ");
     $("#header").prepend(formattedName);
 
     $("#topContacts").append(formattedContactEmail);
