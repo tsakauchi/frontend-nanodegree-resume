@@ -6,11 +6,11 @@
  * email address, github username,
  * twitter handle and location.
  */
-var bio = 
+var bio =
 {
   "name" : "Tsuginosuke Sakauchi",
   "role" : "Software Application Engineer",
-  "contacts" : 
+  "contacts" :
   {
     "email" : "tsugi@fairlandcircle.com",
     "mobile" : "(262) 661-1858",
@@ -20,7 +20,7 @@ var bio =
   },
   "welcomeMessage" : "This is my hello to the JavaScript world! "
   + "This is my resume outlining my progress with the Udacity's Front-End Web Developer Nanodegree program.",
-  "skills" : 
+  "skills" :
   [
     "C",
     "C#",
@@ -91,7 +91,7 @@ var bio =
  */
 var work =
 {
-  "jobs" : 
+  "jobs" :
   [
     {
       "employer" : "Dematic Corp.",
@@ -131,9 +131,9 @@ var work =
  * a title, dates worked, description, and
  * an images array with URL strings for project images.
  */
-var projects = 
+var projects =
 {
-  "projects" : 
+  "projects" :
   [
     {
       "title" : "Portfolio Site (Part of Udacity Nanodegree Program)",
@@ -141,7 +141,7 @@ var projects =
       "description" : "HTML and CSS project that replicated a sample portfolio site, "
       + "demonstrating my proficiency in HTML5, CSS3, reponsive layout, "
       + "and modern webpage design and development methods.",
-      "images" : 
+      "images" :
       [
         "images/p1-1.png",
         "images/p1-2.png",
@@ -154,7 +154,7 @@ var projects =
       "description" : "Basic JavaScript project that replicated a sample resume site, "
       + "demonstrating my proficiency in JavaScript syntax and application of JavaScript "
       + "in developing a functional webpage.",
-      "images" : 
+      "images" :
       [
         "images/p2-1.png",
         "images/p2-2.png"
@@ -193,15 +193,15 @@ var projects =
  * contain a title, school, dates attended, and
  * a url for the course.
  */
-var education = 
+var education =
 {
-  "schools" : 
+  "schools" :
   [
     {
       "name" : "Marquette University",
       "location" : "Milwaukee, WI",
       "degree" : "Masters of Science in Engineering",
-      "majors" : 
+      "majors" :
       [
         "Electrical and Computer Engineering"
       ],
@@ -212,7 +212,7 @@ var education =
       "name" : "Marquette University",
       "location" : "Milwaukee, WI",
       "degree" : "Bachelors of Science in Engineering",
-      "majors" : 
+      "majors" :
       [
         "Computer Engineering"
       ],
@@ -223,7 +223,7 @@ var education =
       "name" : "University of Wisconsin, Marinette",
       "location" : "Marinette, WI",
       "degree" : "Associates of Arts and Sciences",
-      "majors" : 
+      "majors" :
       [
         "Ethnic Studies"
       ],
@@ -231,7 +231,7 @@ var education =
       "url" : "http://marinette.uwc.edu/"
     }
   ],
-  "onlineCourses" : 
+  "onlineCourses" :
   [
     {
       "title" : "Intro to HTML and CSS",
@@ -313,3 +313,5 @@ education.display();
 //$("#header").append(internationalizeButton);
 
 $("#mapDiv").append(googleMap);
+
+hideEmptySections();

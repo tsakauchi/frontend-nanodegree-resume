@@ -76,7 +76,7 @@ The International Name challenge in Lesson 2 where you'll create a function that
 $(document).ready(function() {
   $('button').click(function() {
     var iName = inName() || function(){};
-    $('#name').html(iName);  
+    $('#name').html(iName);
   });
 });
 
@@ -99,7 +99,30 @@ $(document).click(function(loc) {
   logClicks(loc.pageX,loc.pageY);
 });
 
-
+function hideEmptySections()
+{
+  if(document.getElementsByClassName('flex-item').length === 0) {
+    document.getElementById('topContacts').style.display = 'none';
+  }
+  if(document.getElementsByTagName('h1').length === 0) {
+    document.getElementById('header').style.display = 'none';
+  }
+  if(document.getElementsByClassName('work-entry').length === 0) {
+    document.getElementById('workExperience').style.display = 'none';
+  }
+  if(document.getElementsByClassName('project-entry').length === 0) {
+    document.getElementById('projects').style.display = 'none';
+  }
+  if(document.getElementsByClassName('education-entry').length === 0) {
+    document.getElementById('education').style.display = 'none';
+  }
+  if(document.getElementsByClassName('flex-item').length === 0) {
+    document.getElementById('letsConnect').style.display = 'none';
+  }
+  if(document.getElementById('map') === null) {
+    document.getElementById('mapDiv').style.display = 'none';
+  }
+}
 
 /*
 This is the fun part. Here's where we generate the custom Google Map for the website.
